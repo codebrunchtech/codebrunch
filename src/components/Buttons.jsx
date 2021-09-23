@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import styled from 'styled-components';
 
 import { AppContext } from './../App/AppContext';
-import { Facebook, Instagram, LinkedIn, Twitter } from './../icons';
+import { GitHub, YouTube, Podcast, Twitter } from './../icons';
 
 const Container = styled.div`
   a,
@@ -93,25 +93,25 @@ export const Buttons = () => {
 
   const DATA = [
     {
-      href: 'https://www.facebook.com/HananStemsRecords',
-      aria: 'Like us on Facebook',
-      icon: <Facebook />,
-      label: 'Facebook',
+      href: 'https://github.com/thecodebrunch',
+      aria: 'Star our projects if you like',
+      icon: <GitHub />,
+      label: 'GitHub',
     },
     {
-      href: 'https://www.instagram.com/hananstemsrecords/',
-      aria: 'Follow us on Instagram',
-      icon: <Instagram />,
-      label: 'Instagram',
+      href: '',
+      aria: 'Subscribe to our YouTube Channel',
+      icon: <YouTube />,
+      label: 'YouTube',
     },
     {
-      href: 'https://www.linkedin.com/company/hananstems-records',
-      aria: 'Connect with us via LinkedIn',
-      icon: <LinkedIn />,
-      label: 'LinkedIn',
+      href: '',
+      aria: 'Listen to our Google Podcasts',
+      icon: <Podcast />,
+      label: 'Podcast',
     },
     {
-      href: 'https://twitter.com/hananstems',
+      href: '',
       aria: 'Follow us on Twitter',
       icon: <Twitter />,
       label: 'Twitter',
